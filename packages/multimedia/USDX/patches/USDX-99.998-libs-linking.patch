@@ -1,0 +1,13 @@
+diff --git a/src/Makefile.in b/src/Makefile.in
+index 2ba4511..ba2dae4 100644
+--- a/src/Makefile.in
++++ b/src/Makefile.in
+@@ -120,7 +120,7 @@ endif
+ # linker and library settings
+ ###
+ 
+-LIBS       ?= @LIBS@
++LIBS       ?= 
+ LDFLAGS    ?= @LDFLAGS@
+ linkflags  := $(LDFLAGS) $(sort $(LIBS))
+ ifneq ($(linkflags),)

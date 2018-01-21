@@ -35,8 +35,7 @@ PKG_CONFIGURE_OPTS_TARGET="ac_cv_func_forkpty=no \
                            ac_cv_prog_HAVE_PYTHON3=no \
                            --enable-devinput \
                            --localstatedir=/ \
-                           --with-gnu-ld \
-                           --without-x"
+                           --with-gnu-ld"
 
 pre_configure_target() {
   export HAVE_WORKING_POLL=yes
